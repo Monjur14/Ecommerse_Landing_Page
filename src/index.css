@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.contain{
+  max-width: 1200px;
+}
+.section__padding{
+  padding: 4rem 0rem;
+}
+@media (0px< width <= 410px) {
+  .contain{
+    padding: 0rem 1rem;
+  }
+  .section__padding{
+    padding: 2rem 0rem;
+  }
+}
+@media (411px <= width <= 650px) {
+  .contain{
+    padding: 0rem 1.3rem;
+  }
+  .section__padding{
+    padding: 2.2rem 0rem;
+  }
+}
+@media (651px <= width <= 768px) {
+  .contain{
+    padding: 0rem 1.5rem;
+  }
+  .section__padding{
+    padding: 2.5rem 0rem;
+  }
+}
+@media (769px<= width <= 1050px) {
+  .contain{
+    padding: 0rem 1.7rem;
+  }
+  .section__padding{
+    padding: 2.7rem 0rem;
+  }
+}
+@media (1051px <= width <= 1300px) {
+  .contain{
+    padding: 0rem 2rem;
+  }
+  .section__padding{
+    padding: 3rem 0rem;
+  }
+}
+@media (1301px <= width <= 3000px) {
+  .contain{
+    padding: 0rem;
+  }
+  .section__padding{
+    padding: 3.5rem 0rem;
+  }
+}
