@@ -12,7 +12,7 @@ const Hero = () => {
             <Button title="Order Now"/>
         </div>
         <div className="basis-1/2 md:self-center">
-            <img src="/public/heroimg.png" alt="" />
+            <img src="heroimg.png" alt="" />
         </div>
       </div>
     </div>
