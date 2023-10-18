@@ -9,7 +9,7 @@ const Hero = () => {
             <h1 className="text-3xl xsm:text-4xl md:text-[3.5rem] xlg:text-[3.5rem] lg:text-[3rem] font-bold">Unleash the <span className="text-blue">Future</span></h1>
             <h1 className="text-3xl xsm:text-4xl md:text-[3.5rem] xlg:text-[3.5rem] lg:text-[3rem] font-bold">with Our <span className="text-blue">Products</span></h1>
             <p className="text-gray text-sm xsm:text-base md:text-xl py-2 lg:py-0">Elevate Your Experience and Embrace Excellence</p>
-            <Button title="Order Now"/>
+            <Button title="Order Now"/> 
         </div>
         <div className="basis-1/2 md:self-center">
             <img src="heroimg.png" alt="" />

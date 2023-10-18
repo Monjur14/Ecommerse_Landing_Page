@@ -11,7 +11,7 @@ const OurProducts = () => {
                 <h1 className="text-center text-3xl xsm:text-3xl lg:text-4xl font-bold mb-1">Our <span className='text-blue'>Products</span></h1>
                 <p className='text-center text-sm xsm:text-bs text-gray'>List your other great products here.</p>
             </div>
-            <div className="flex flex-col gap-14 md:items-center lg:flex-row">
+            <div className="flex flex-col mx-auto gap-14 md:items-center lg:flex-row">
                 <Product img={item1} heading={"Glossary Items"}/>
                 <Product img={item2} heading={"Brush Items"}/>
                 <Product img={item3} heading={"Head Phone"}/>
