@@ -3,7 +3,7 @@ import featured from '/public/featured.png'
 
 const FeaturedProduct = () => {
   return (
-    <div className="contain mx-auto">
+    <div className="contain mx-auto" id='features'>
       <div className="section__padding">
         <div>
         <h1 className="text-center text-3xl xsm:text-3xl lg:text-4xl font-bold mb-10 lg:mb-16"><span className='text-blue'>Featured</span> Product</h1>

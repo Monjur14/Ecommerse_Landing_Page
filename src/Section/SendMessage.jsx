@@ -4,7 +4,7 @@ import Map from '/public/Map.png'
 
 const SendMessage = () => {
   return (
-    <div className="contain mx-auto">
+    <div className="contain mx-auto" id='contact'>
         <div className="section__padding">
             <div>
                 <h1 className="text-center text-3xl xsm:text-3xl lg:text-4xl font-bold mb-14">Send <span className='text-blue'>Messages</span></h1>

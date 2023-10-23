@@ -1,3 +1,4 @@
+import Headroom from 'react-headroom'
 import './App.css'
 import Companies from './Section/Companies'
 import Credit from './Section/Credit'
@@ -17,7 +18,9 @@ function App() {
   return (
     <>
      <div>
-        <Navbar/>
+        <Headroom>
+          <Navbar/>
+        </Headroom>
         <Hero/>
         <WhyLander/>
         <Reviews/>

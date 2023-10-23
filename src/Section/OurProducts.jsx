@@ -5,7 +5,7 @@ import item3 from '/public/item3.png'
 
 const OurProducts = () => {
   return (
-    <div className="contain mx-auto">
+    <div className="contain mx-auto" id="product">
         <div className="section__padding flex flex-col gap-10 md:gap-12">
             <div>
                 <h1 className="text-center text-3xl xsm:text-3xl lg:text-4xl font-bold mb-1">Our <span className='text-blue'>Products</span></h1>

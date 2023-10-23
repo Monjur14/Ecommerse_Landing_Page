@@ -5,7 +5,7 @@ import icon3 from '/public/Group-1.png'
 
 const WhyLander = () => {
   return (
-    <div className="contain mx-auto">
+    <div className="contain mx-auto" id="about">
       <div className="section__padding flex flex-col gap-12">
         <div>
             <h1 className="text-center text-3xl xsm:text-3xl lg:text-4xl font-bold">Why is <span className="text-blue">Lander</span>?</h1>

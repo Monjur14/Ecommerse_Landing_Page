@@ -2,7 +2,7 @@ import Button from "../Components/Button"
 
 const Hero = () => {
   return (
-    <div className="contain mx-auto">
+    <div className="contain mx-auto" id="home">
       <div className="section__padding flex flex-col lg:flex-row gap-12 xsm:gap-14 md:gap-20">
         <div className="space-y-1 xsm:space-y-2 md:space-y-7 lg:space-y-8 basis-1/2 lg:self-center">
             <h1 className="text-3xl xsm:text-4xl md:text-[3.5rem] xlg:text-[3.5rem] lg:text-[3rem] font-bold">Discover <span className="text-blue">Innovation</span></h1>

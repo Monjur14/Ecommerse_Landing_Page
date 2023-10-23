@@ -7,7 +7,7 @@ import { Pagination } from 'swiper/modules';
 
 const Reviews = () => {
   return (
-    <div className="contain mx-auto">
+    <div className="contain mx-auto" id="reviews">
       <div className="section__padding">
         <div>
         <h1 className="text-center text-3xl xsm:text-3xl lg:text-4xl font-bold mb-7">Customer’s <span className="text-blue">Reviews</span></h1>
