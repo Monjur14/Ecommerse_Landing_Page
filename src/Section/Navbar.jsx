@@ -11,7 +11,7 @@ const Navbar = () => {
     <div className="contain mx-auto">
         <nav className="py-4 md:py-5 flex justify-between items-center relative">
             <div>
-                <img src="/public/Logo.png" alt="" className="w-[120px] xsm:w-[130px] md:w-[170px] xlg:w-[180px]"/>
+                <img src="Logo.png" alt="" className="w-[120px] xsm:w-[130px] md:w-[170px] xlg:w-[180px]"/>
             </div>
             <div className="hidden lg:block">
                 <ul className='flex gap-10 text-lg font-bold'>
