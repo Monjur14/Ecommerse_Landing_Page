@@ -9,7 +9,7 @@ const FAQ = () => {
           <h1 className="text-center text-3xl xsm:text-3xl lg:text-4xl font-bold mb-1"><span className="text-blue">Frequently</span> Asked <span className="text-blue">Questions</span></h1>
         </div>
         <div className="flex flex-col lg:flex-row lg:items-center lg:gap-16 gap-8 md:gap-10">
-          <div className="lg:basis-3/4 space-y-2">
+          <div className="lg:basis-3/4 space-y-2 mx-auto">
               <AccordionItems question={"This is first question"}/>
               <AccordionItems question={"This is second question"}/>
               <AccordionItems question={"This is third question"}/>
